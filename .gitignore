@@ -1,0 +1,11 @@
+# Secrets and local data must not be committed
+.streamlit/secrets.toml
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
